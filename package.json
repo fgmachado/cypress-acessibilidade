@@ -1,0 +1,29 @@
+{
+  "name": "acessibilidade",
+  "version": "1.0.0",
+  "description": "Projeto de apresentação de conceitos de automação de testes de acessibilidade",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^5.2.0",
+    "axe-core": "^4.0.2",
+    "cypress-axe": "^0.8.1"
+  },
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgmachado/cypress-acessibilidade.git"
+  },
+  "keywords": [
+    "cypress",
+    "axe",
+    "a11y"
+  ],
+  "author": "Felipe Gomes Machado <fgmachado0@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fgmachado/cypress-acessibilidade/issues"
+  },
+  "homepage": "https://github.com/fgmachado/cypress-acessibilidade#readme"
+}
